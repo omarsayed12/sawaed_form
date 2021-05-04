@@ -43,7 +43,7 @@ img {
 }
 
 input {
-  background-color: #660000;
+  background-color: #FFF !important;
 }
 
 ::placeholder {

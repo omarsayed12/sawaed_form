@@ -1,0 +1,340 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  letter-spacing: 0.03px;
+}
+
+body {
+  font-family: "Gothic A1", sans-serif;
+}
+
+.start {
+  color: #F7514F;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+img {
+  width: 21px;
+}
+
+.control-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #202124;
+  padding-bottom: 20px;
+}
+
+.field-required {
+  visibility: hidden;
+}
+.control-input-content {
+  position: relative;
+  max-width: 330px;
+  height: 29px;
+  border-bottom: 1px solid #ddd;
+}
+.control-input-content .control-input {
+  border: none;
+  width: 100%;
+  font-size: 15px;
+}
+
+::placeholder {
+  font-size: 15px;
+}
+
+select.minimal {
+  background-image: url("../imgs/down-arrow.png");
+  background-position: left 5px center;
+  background-repeat: no-repeat;
+  background-size: auto 25%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+.text-mute {
+  color: #706f6ffa;
+}
+
+select option[value=""] {
+  color: #706f6ffa;
+}
+select option {
+  color: #202124;
+  font-size: 14px;
+  background-color: #c9e3ff75;
+}
+select:focus {
+  background-color: #c9e3ff75;
+  transition: all 0.7s;
+}
+
+.bg-section {
+  background-color: #FFF;
+  border: 1px solid #dfe6e9;
+  border-radius: 11px;
+  margin: 15px 0;
+  padding: 25px;
+}
+
+.flex-alignitem, .details-kitchen-tools .form-radio-chekbox, .payment-info .form-radio-input, .food-helping-team .form-group, .field-required {
+  display: flex;
+  align-items: center;
+}
+
+.bg-border, .form-content .container-form .header {
+  background-color: #fff;
+  border: 1px solid #dfe6e9;
+}
+
+.heading-style, .payment-info .payment-info-title, .food-helping-team .food-helping-content-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #202124;
+  line-height: 1.2;
+}
+
+.food-helping-team .form-group .control-checkbox {
+  width: 18px;
+  height: 18px;
+}
+
+.field-required .ques-req {
+  font-size: 10px;
+  padding-right: 12px;
+  color: #F7514F;
+}
+
+.banner-kitchen .banner-kitchen-content, .cooperation-sawaed-quran .desc-sawaed-quran-content, .cooperation-sawaed-water .desc-sawaed-water-content, .cooperation-egyfoodBank .desc-kitchen-content, .kitchen-gadgets .kitchen-gadgets-content, .desc-kitchen .desc-kitchen-content, .kitchen-place .kitchen-place-content, .regular-volunteers .number-regular-volunteers, .possibility-volunteer .possibility-volunteer-content, .average-number-days-work .average-work-kitch, .average-number-meals .meals-targeted, .total-number-cases-association .total-number-cases-association-content, .city .city-content, .governorates .govern-content, .feeding-meal .control-feeding-meals {
+  appearance: none;
+  font-size: 14px;
+  height: 46px;
+}
+
+.control-textarea {
+  width: 100%;
+  font-size: 15px;
+  resize: none;
+  border: none;
+  line-height: 14px;
+  border-bottom: 1px solid #ddd;
+  outline: 0;
+}
+
+.date-several-kitchen-tools .input-date, .date-make-mails .input-data {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  color: #202124;
+  border-bottom: 1px solid #ddd;
+  margin-top: 10px;
+  padding-bottom: 2px;
+}
+
+input {
+  outline: 0;
+  border: 0;
+}
+
+.form-content {
+  background-color: #c9e3ff75;
+}
+.form-content .container-form {
+  max-width: 665px;
+  margin: auto;
+  padding: 15px 10px;
+}
+.form-content .container-form .header {
+  position: relative;
+  margin: 15px 0;
+  padding: 25px;
+  border-bottom-right-radius: 11px;
+  border-bottom-left-radius: 11px;
+}
+.form-content .container-form .header::before {
+  content: "";
+  position: absolute;
+  top: -14px;
+  right: -1px;
+  width: 100%;
+  max-width: 100%;
+  height: 13px;
+  border-top-left-radius: 11px;
+  background: #0984e3;
+  border: 1px solid #0984e3;
+  border-top-right-radius: 11px;
+  box-sizing: unset;
+}
+.form-content .container-form .form-heading {
+  font-size: 22px;
+  font-weight: 600;
+}
+.form-content .container-form .form-requird {
+  color: #F7514F;
+  font-size: 12px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+.food-helping-team .food-team-join {
+  font-size: 12px;
+  letter-spacing: 0.02px;
+  padding: 11px 0;
+  line-height: 1.6;
+}
+.food-helping-team .form-group {
+  line-height: 1.2;
+}
+.food-helping-team .form-group .form-check-label {
+  font-size: 13px;
+  color: #202124;
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+.feeding-meal .control-feeding-meals {
+  width: 250px;
+}
+
+.date-make-mails .date-text {
+  font-size: 12px;
+  line-height: 16px;
+  color: #70757a;
+}
+.governorates .govern-content {
+  width: 200px;
+}
+
+.city .city-content {
+  width: 200px;
+}
+
+.payment-info .payment-info-title {
+  padding-bottom: 20px;
+}
+.payment-info .form-radio-input {
+  padding-bottom: 15px;
+}
+.payment-info .form-radio-input .control-label-payment {
+  font-size: 13px;
+  font-weight: 600;
+  color: #070707;
+  padding-right: 10px;
+  margin-bottom: 0;
+}
+.payment-info .form-radio-input .control-input-radio {
+  width: 21px;
+  height: 21px;
+}
+
+.total-number-cases-association .total-number-cases-association-content {
+  width: 200px;
+}
+
+.average-number-meals .meals-targeted {
+  width: 200px;
+}
+
+.average-number-days-work .average-work-kitch {
+  width: 200px;
+}
+
+.possibility-volunteer .possibility-volunteer-content {
+  width: 200px;
+}
+
+.regular-volunteers .number-regular-volunteers {
+  width: 200px;
+}
+
+.kitchen-place .kitchen-place-content {
+  width: 200px;
+}
+
+.desc-kitchen .desc-kitchen-content {
+  width: 200px;
+}
+
+.kitchen-gadgets .kitchen-gadgets-content {
+  width: 250px;
+}
+
+.cooperation-egyfoodBank .desc-kitchen-content {
+  width: 250px;
+}
+
+.cooperation-sawaed-water .desc-sawaed-water-content {
+  width: 200px;
+}
+
+.cooperation-sawaed-quran .desc-sawaed-quran-content {
+  width: 200px;
+}
+
+.details-kitchen-tools .form-radio-chekbox {
+  padding-bottom: 15px;
+}
+.details-kitchen-tools .form-radio-chekbox .control-input-checkbox {
+  width: 18px;
+  height: 18px;
+}
+.details-kitchen-tools .form-radio-chekbox .form-check-label {
+  font-size: 13px;
+  color: #202124;
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+.date-several-kitchen-tools .date-text {
+  font-size: 12px;
+  line-height: 16px;
+  color: #70757a;
+}
+.banner-kitchen .banner-kitchen-content {
+  width: 200px;
+}
+
+.send-inf .btn-send-data {
+  color: #FFF;
+  background: #0984e3;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 9px 22px;
+}
+.send-inf .btn-send-data:focus {
+  box-shadow: none;
+}
+
+.footer-content .about-form-desc {
+  color: #202124;
+  font-size: 12px;
+  padding-top: 15px;
+}
+.footer-content .about-form-option {
+  font-size: 12px;
+}
+.footer-content .about-form-option .about-form-item {
+  color: #202124;
+  text-decoration: underline;
+  padding-left: 3px;
+}
+.footer-content .google-form {
+  color: #909090;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 10px;
+}
+.footer-content .google-form .form-text-google {
+  font-size: 22px;
+}
+.footer-content .google-form .form-google {
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

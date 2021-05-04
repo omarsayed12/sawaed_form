@@ -1,0 +1,295 @@
+// Start section form-content
+.form-content {
+    background-color: #c9e3ff75;
+    .container-form {
+        max-width: 665px;
+        margin: auto;
+        padding: 15px 10px;
+        .header {
+            position: relative;
+            margin: 15px 0;
+            padding: 25px;
+            border-bottom-right-radius: 11px;
+            border-bottom-left-radius: 11px;
+            @extend .bg-border;
+            &::before {
+                content: "";
+                position: absolute;
+                top: -14px;
+                right: -1px;
+                width: 100%;
+                max-width: 100%;
+                height: 13px;
+                border-top-left-radius: 11px;
+                background: #0984e3;
+                border: 1px solid #0984e3;
+                border-top-right-radius: 11px;
+                box-sizing: unset;
+            }
+        }
+        .form-heading {
+            font-size: 22px;
+            font-weight: $first-fontWeight;
+        }
+        .form-requird {
+            color: $color-red;
+            font-size: 12px;
+            font-weight: $secound-fontWeight;
+            padding-top: 20px;
+        }
+    }
+}
+
+// Start section food-helping-team 
+.food-helping-team {
+    .food-helping-content-title {
+        @extend .heading-style;
+    }
+    .food-team-join {
+        font-size: 12px;
+        letter-spacing: 0.02px;
+        padding: 11px 0;
+        line-height: 1.6
+    }
+    .form-group {
+        @extend .flex-alignitem;
+        line-height: 1.2;
+        .control-checkbox {
+            @extend %checkbox-size;
+        }
+        .form-check-label {
+            font-size: 13px;
+            color: $main-color;
+            font-weight: $first-fontWeight;
+            padding-right: 10px;
+        }
+    }
+}
+
+.feeding-meal {
+    .control-feeding-meals {
+        width: 250px;
+        @extend %select-style;
+    }
+}
+
+//start section date-make-mails
+.date-make-mails {
+    .date-text {
+        font-size: 12px;
+        line-height: 16px;
+        color: #70757a;
+    }
+    .input-data {
+        @extend %input-data-styled;
+    }
+}
+
+//start section governorates
+.governorates {
+    .govern-content {
+        width: 200px;
+        @extend %select-style;
+    }
+}
+
+//Start section city
+.city {
+    .city-content {
+        width: 200px;
+        @extend %select-style;
+    }
+}
+
+//start section payment
+.payment-info {
+    .payment-info-title {
+        @extend .heading-style;
+        padding-bottom: 20px;
+    }
+    .form-radio-input {
+        @extend .flex-alignitem;
+        padding-bottom: 15px;
+        .control-label-payment {
+            font-size: 13px;
+            font-weight: 600;
+            color: #070707;
+            padding-right: 10px;
+            margin-bottom: 0;
+        }
+        .control-input-radio {
+            width: 21px;
+            height: 21px;
+        }
+    }
+}
+
+//start section total-number-cases-association
+.total-number-cases-association {
+    .total-number-cases-association-content {
+        width: 200px;
+        @extend %select-style;
+    }
+}
+
+//Start section average-number-meals
+.average-number-meals {
+    .meals-targeted {
+        width: 200px;
+        @extend %select-style;
+    }
+}
+
+// start section average-number-days-work
+.average-number-days-work {
+    .average-work-kitch {
+        width: 200px;
+        @extend %select-style;
+    }
+}
+
+// start section possibility-volunteer
+.possibility-volunteer {
+    .possibility-volunteer-content {
+        width: 200px;
+        @extend %select-style;
+    }
+}
+
+// start section regular-volunteers
+.regular-volunteers {
+    .number-regular-volunteers {
+        width: 200px;
+        @extend %select-style;
+    }
+}
+
+//start sectiomn kitchen-place
+.kitchen-place {
+    .kitchen-place-content {
+        width: 200px;
+        @extend %select-style;
+    }
+}
+
+// start section decrption-kitchen
+.desc-kitchen {
+    .desc-kitchen-content {
+        width: 200px;
+        @extend %select-style;
+    }
+}
+
+// start section kitchen-gadgets
+.kitchen-gadgets {
+    .kitchen-gadgets-content {
+        width: 250px;
+        @extend %select-style;
+    }
+}
+
+// start section kitchen-image
+//start secton cooperation-EgyptianFoodBank
+.cooperation-egyfoodBank {
+    .desc-kitchen-content {
+        width: 250px;
+        @extend %select-style;
+    }
+}
+
+//start section cooperation sawaed-water
+.cooperation-sawaed-water {
+    .desc-sawaed-water-content {
+        width: 200px;
+        @extend %select-style;
+    }
+}
+
+// start section cooperation-sawaed-quran
+.cooperation-sawaed-quran {
+    .desc-sawaed-quran-content {
+        width: 200px;
+        @extend %select-style;
+    }
+}
+
+//start section details-kitchen-tools
+.details-kitchen-tools {
+    .form-radio-chekbox {
+        padding-bottom: 15px;
+        @extend .flex-alignitem;
+        .control-input-checkbox {
+            width: 18px;
+            height: 18px;
+        }
+        .form-check-label {
+            font-size: 13px;
+            color: $main-color;
+            font-weight: 600;
+            padding-right: 10px;
+        }
+    }
+}
+
+//start section date-several-kitchen-tools
+.date-several-kitchen-tools {
+    .date-text {
+        font-size: 12px;
+        line-height: 16px;
+        color: #70757a;
+    }
+    .input-date {
+        @extend %input-data-styled;
+    }
+}
+
+//start section banner-kitchen
+.banner-kitchen {
+    .banner-kitchen-content {
+        width: 200px;
+        @extend %select-style;
+    }
+}
+
+// start div send-inf 
+.send-inf {
+    .btn-send-data {
+        color: #FFF;
+        background: #0984e3;
+        font-weight: 600;
+        font-size: 12px;
+        padding: 9px 22px;
+        &:focus {
+            box-shadow: none;
+        }
+    }
+}
+
+// start section footer-content
+.footer-content {
+    .about-form-desc {
+        color: $main-color;
+        font-size: 12px;
+        padding-top: 15px;
+    }
+    .about-form-option {
+        font-size: 12px;
+        .about-form-item {
+            color: $main-color;
+            text-decoration: underline;
+            padding-left: 3px;
+        }
+    }
+    .google-form {
+        color: #909090;
+        text-decoration: none;
+        font-weight: 500;
+        padding: 10px;
+        .form-text-google {
+            font-size: 22px;
+        }
+        .form-google {
+            font-size: 30px;
+        }
+    }
+}

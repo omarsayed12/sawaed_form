@@ -42,6 +42,10 @@ img {
   font-size: 15px;
 }
 
+input {
+  background-color: #FFF;
+}
+
 ::placeholder {
   font-size: 15px;
 }
@@ -60,6 +64,9 @@ select.minimal {
   color: #706f6ffa;
 }
 
+select {
+  background-color: #FFF;
+}
 select option[value=""] {
   color: #706f6ffa;
 }

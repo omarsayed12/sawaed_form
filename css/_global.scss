@@ -55,6 +55,7 @@ img {
 
 input {
     @extend %input-outline-border;
+    background-color: #FFF;
 }
 
 ::placeholder {
@@ -80,6 +81,7 @@ select.minimal {
 }
 
 select {
+    background-color: #FFF;
     option[value=""] {
         color: #706f6ffa;
     }

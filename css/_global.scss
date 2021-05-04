@@ -55,7 +55,7 @@ img {
 
 input {
     @extend %input-outline-border;
-    background-color: #FFF;
+    background-color: rgb(102, 0, 0);
 }
 
 ::placeholder {
